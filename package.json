@@ -19,6 +19,6 @@
   "devDependencies": {
     "ava": "0.23.0",
     "benchmark": "2.1.4",
-    "codecove": "3.0.0"
+    "codecov": "3.0.0"
   }
 }
