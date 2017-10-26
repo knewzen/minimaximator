@@ -1,0 +1,23 @@
+{
+  "name": "min-max",
+  "version": "1.0.0",
+  "description": "A Node.js package that allows you to get the lowest and the highest number of an array with one function call",
+  "main": "src/min-max.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xstoudi/min-max.git"
+  },
+  "author": "Xavier Stouder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xstoudi/min-max/issues"
+  },
+  "homepage": "https://github.com/Xstoudi/min-max#readme",
+  "devDependencies": {
+    "ava": "0.23.0",
+    "benchmark": "2.1.4"
+  }
+}
