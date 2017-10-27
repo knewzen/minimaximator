@@ -1,6 +1,47 @@
-# min-max
-A Node.js package that allows you to get the lowest and the highest number of an array with one function call
+# minMax method
+A Node.js package that allows you to get the lowest and the highest number of an array with one function call.
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow @Xstoudi)]()
+
 
 [![Travis](https://img.shields.io/travis/Xstoudi/min-max.svg)]()
 [![NPM](https://img.shields.io/npm/Xstoudi/min-max.svg)]()
-[![codecov](https://codecov.io/gh/Xstoudi/min-max/branch/master/graph/badge.svg)](https://codecov.io/gh/Xstoudi/min-max)
+[![Coverage Status](https://coveralls.io/repos/github/Xstoudi/min-max/badge.svg?branch=master)](https://coveralls.io/github/Xstoudi/min-max?branch=master)
+
+## Sponsor
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/min-max'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/min-max.svg' />
+</a>
+
+## Example
+Currently, if you have an array of numbers and you want to get the lowest and the highest number you have to:
+```js
+const nums = [12, 10, 25, 5]
+const min = Math.min(nums)
+const max = Math.max(nums)
+console.log(min, max) // 5 25
+```
+...but with this lib, you are able to do:
+```js
+const { minMax } = require('min-max')
+const nums = [12, 10, 25, 5]
+const [min, max] = minMax(nums)
+console.log(min, max) // 5 25
+```
+
+## Benchmark
+There is benchmark in the `benchmark` folder that you can run.
+Here is a typical example with 100 numbers:
+
+```
+Two calls x 133,210 ops/sec ±3.03% (85 runs sampled)
+Minmax function x 1,394,442 ops/sec ±1.39% (90 runs sampled)
+Fastest is Minmax function
+```
+
+And here is a typical example with 100000 numbers:
+```
+Two calls x 13.40 ops/sec ±4.17% (36 runs sampled)
+Minmax function x 1,552 ops/sec ±1.48% (86 runs sampled)
+Fastest is Minmax function
+```
