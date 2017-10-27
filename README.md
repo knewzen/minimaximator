@@ -33,14 +33,14 @@ There is benchmark in the `benchmark` folder that you can run.
 Here is a typical example with 100 numbers:
 
 ```
-Two calls x 133,210 ops/sec ±3.03% (85 runs sampled)
-Minmax function x 1,394,442 ops/sec ±1.39% (90 runs sampled)
+Two calls x 146,444 ops/sec ±1.67% (86 runs sampled)
+Minmax function x 5,693,000 ops/sec ±0.64% (90 runs sampled)
 Fastest is Minmax function
 ```
 
 And here is a typical example with 100000 numbers:
 ```
-Two calls x 13.40 ops/sec ±4.17% (36 runs sampled)
-Minmax function x 1,552 ops/sec ±1.48% (86 runs sampled)
+Two calls x 25.93 ops/sec ±7.60% (40 runs sampled)
+Minmax function x 9,315 ops/sec ±0.44% (89 runs sampled)
 Fastest is Minmax function
 ```
