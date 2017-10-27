@@ -4,7 +4,7 @@ A Node.js package that allows you to get the lowest and the highest number of an
 [![Twitter](https://img.shields.io/twitter/follow/Xstoudi.svg?style=social&label=Follow%20@Xstoudi)](https://twitter.com/Xstoudi)
 
 [![Travis](https://img.shields.io/travis/Xstoudi/minimaximator.svg)]()
-[![npm](https://img.shields.io/npm/xstoudi/minimaximator.svg)]()
+[![npm](https://img.shields.io/npm/dt/minimaximator.svg)]()
 [![Coverage Status](https://coveralls.io/repos/github/Xstoudi/minimaximator/badge.svg?branch=master)](https://coveralls.io/github/Xstoudi/minimaximator?branch=master)
 
 ## Sponsor
