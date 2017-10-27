@@ -21,5 +21,6 @@
     "benchmark": "2.1.4",
     "codecov.io": "0.1.6",
     "nyc": "11.2.1"
-  }
+  },
+  "dependencies": {}
 }

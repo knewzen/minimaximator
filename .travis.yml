@@ -4,4 +4,4 @@ node_js:
 install:
   - npm install
 after_success:
-  - 'nyc report --reporter=text-lcov npm test | codecov'
+  - 'nyc report --reporter=text-lcov ava | codecov'
