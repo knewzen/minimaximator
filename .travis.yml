@@ -4,4 +4,4 @@ node_js:
 install:
   - npm install
 after_success:
-  - codecov
+  - 'nyc report --reporter=text-lcov | codecov'
