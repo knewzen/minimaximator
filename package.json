@@ -19,6 +19,8 @@
   "devDependencies": {
     "ava": "0.23.0",
     "benchmark": "2.1.4",
+    "coveralls": "3.0.0",
+    "nyc": "11.2.1"
   },
   "dependencies": {}
 }
