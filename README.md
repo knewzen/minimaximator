@@ -1,8 +1,7 @@
 # minMax method
 A Node.js package that allows you to get the lowest and the highest number of an array with one function call.
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Xstoudi.svg?style=social&label=Follow @Xstoudi)]()
-
+[![Twitter](https://img.shields.io/twitter/follow/Xstoudi.svg?style=social&label=Follow%20@Xstoudi)](https://twitter.com/Xstoudi)
 
 [![Travis](https://img.shields.io/travis/Xstoudi/minimaximator.svg)]()
 [![NPM](https://img.shields.io/npm/Xstoudi/minimaximator.svg)]()
