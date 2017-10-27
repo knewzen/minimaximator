@@ -4,13 +4,13 @@ A Node.js package that allows you to get the lowest and the highest number of an
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow @Xstoudi)]()
 
 
-[![Travis](https://img.shields.io/travis/Xstoudi/min-max.svg)]()
-[![NPM](https://img.shields.io/npm/Xstoudi/min-max.svg)]()
-[![Coverage Status](https://coveralls.io/repos/github/Xstoudi/min-max/badge.svg?branch=master)](https://coveralls.io/github/Xstoudi/min-max?branch=master)
+[![Travis](https://img.shields.io/travis/Xstoudi/minimaximator.svg)]()
+[![NPM](https://img.shields.io/npm/Xstoudi/minimaximator.svg)]()
+[![Coverage Status](https://coveralls.io/repos/github/Xstoudi/minimaximator/badge.svg?branch=master)](https://coveralls.io/github/Xstoudi/minimaximator?branch=master)
 
 ## Sponsor
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/min-max'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/min-max.svg' />
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/minimaximator'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/minimaximator.svg' />
 </a>
 
 ## Example
@@ -23,7 +23,7 @@ console.log(min, max) // 5 25
 ```
 ...but with this lib, you are able to do:
 ```js
-const { minMax } = require('min-max')
+const { minMax } = require('minimaximator')
 const nums = [12, 10, 25, 5]
 const [min, max] = minMax(nums)
 console.log(min, max) // 5 25

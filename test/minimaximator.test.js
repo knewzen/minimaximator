@@ -1,5 +1,5 @@
 import test from 'ava'
-import { minMax } from '../src/min-max.js'
+import { minMax } from '../src/minimaximator.js'
 
 test('If no argument was given to the function, return infinity', t => {
   t.deepEqual(minMax(), [Infinity, -Infinity])

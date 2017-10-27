@@ -1,6 +1,6 @@
 const Benchmark = require('benchmark');
 const suite = new Benchmark.Suite;
-const { minMax } = require('../src/min-max')
+const { minMax } = require('../src/minimaximator')
 
 const testCase = []
 for (let x = 0; x < 1000; ++x) {
