@@ -15,16 +15,24 @@ for (let x = 0; x < 10; ++x) {
 
 suite
   .add('Two calls', () => {
-    const min = Math.min(testCase)
-    const max = Math.min(testCase)
+    const min = Math.min(...testCase)
+    const max = Math.max(...testCase)
   })
   .add('Minmax function', () => {
     const [min, max] = minMax(testCase)
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    console.log(String(event.target))
   })
   .on('complete', function() {
-    console.log(`Fastest is ${this.filter('fastest').map('name')}`);
+    console.log(`Fastest is ${this.filter('fastest').map('name')}`)
   })
-  .run({ 'async': true });
+  .run({ 'async': true })
+
+  /*
+
+  Two calls x 999,200 ops/sec ±3.45% (81 runs sampled)
+Minmax function x 19,485,017 ops/sec ±0.74% (89 runs sampled)
+Fastest is Minmax function
+
+*/

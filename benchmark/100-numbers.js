@@ -15,16 +15,16 @@ for (let x = 0; x < 100; ++x) {
 
 suite
   .add('Two calls', () => {
-    const min = Math.min(testCase)
-    const max = Math.min(testCase)
+    const min = Math.min(...testCase)
+    const max = Math.max(...testCase)
   })
   .add('Minmax function', () => {
     const [min, max] = minMax(testCase)
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    console.log(String(event.target))
   })
-  .on('complete', function() {
-    console.log(`Fastest is ${this.filter('fastest').map('name')}`);
+  .on('complete', function () {
+    console.log(`Fastest is ${this.filter('fastest').map('name')}`)
   })
-  .run({ 'async': true });
+  .run({ 'async': true })

@@ -1,6 +1,6 @@
 {
   "name": "minimaximator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js package that allows you to get the lowest and the highest number of an array with one function call",
   "main": "src/minimaximator.js",
   "scripts": {
