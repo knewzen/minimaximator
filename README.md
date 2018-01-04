@@ -8,9 +8,7 @@ A Node.js package that allows you to get the lowest and the highest number of an
 [![Coverage Status](https://coveralls.io/repos/github/Xstoudi/minimaximator/badge.svg?branch=master)](https://coveralls.io/github/Xstoudi/minimaximator?branch=master)
 
 ## Sponsor
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/minimaximator'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RFZm26J558vLyi6jH9gt7X9F/Xstoudi/minimaximator.svg' />
-</a>
+
 
 ## Example
 Currently, if you have an array of numbers and you want to get the lowest and the highest number you have to:
